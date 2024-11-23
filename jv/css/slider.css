@@ -1,0 +1,26 @@
+.pSlider {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.Slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 14px;
+  margin: 20px;
+  height: 350px;
+  background-image: url("/imgs/slider/0.jpg");
+}
+
+.Slider i {
+  font-size: xx-large;
+  color: rgb(168, 95, 176);
+}
+.Slider i:hover {
+  color: rgb(251, 251, 251);
+}
+.GioHang:hover{
+  color: green;
+  }

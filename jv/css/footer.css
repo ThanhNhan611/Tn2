@@ -1,0 +1,13 @@
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+}
+
+.footer div {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 10px;
+  color:aliceblue;
+
+}

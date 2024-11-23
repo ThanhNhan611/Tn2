@@ -1,0 +1,61 @@
+.pMenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(169, 169, 169);
+  box-shadow: 5px 5px 5px rgb(130, 124, 124);
+  padding: 7px;
+}
+.logo {
+  width: 30px;
+  padding: 20px;
+}
+.menuTop {
+  list-style: none;
+  display: flex;
+}
+
+.subMenu2 {
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  background-color: rgb(162, 158, 158);
+  position: absolute;
+  border-radius: 7px;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:rgb(31, 37, 89);
+  font-size: 120%;
+}
+
+.menu a:hover {
+  color: rgb(33, 33, 33);
+  background-color: rgb(231, 243, 243);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.DangNhapGioHangTongSL {
+  display: flex;
+  padding: 20px;
+  padding-right: 30px;
+}
+
+.TongSL {
+  font-size: small;
+}
+
+.menuTop > li {
+  position: relative;
+}
+
+.menuTop > li:hover .subMenu2 {
+  display: flex;
+}

@@ -1,0 +1,60 @@
+.tieudeP2 h1 {
+  text-align: center;
+  padding: 10px;
+  color:rgb(122, 121, 120);
+}
+.dongSp {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.Sp {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  font-style:initial;
+}
+
+.giaNutMua {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hinhSp {
+  overflow: hidden; /* để khi xoay hình, không bị tràn */
+}
+
+.hinhSp img {
+  width: 100%;
+  transition: 1s;
+}
+
+.hinhSp img:hover {
+  transform: rotate(10deg);
+}
+
+.tenSp {
+  font-weight: bold;
+  text-align: center;
+}
+
+.NutMua {
+  background-color: rgb(255, 255, 255);
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.fa-solid fa-cart-shopping:hover {
+ color: green;
+}
+.NutMua:hover {
+  background-color: rgb(127, 124, 124);
+}
+.thongtinSp{
+  font-style:oblique;
+  font-size: normal;
+  }

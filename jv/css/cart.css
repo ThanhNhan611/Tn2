@@ -1,0 +1,131 @@
+.p2Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.tieudeP2Cart{
+  text-align: center;
+  font-weight: bold;
+  color:rgb(126, 124, 122);
+  font-size: larger;
+  padding: 10px;
+}
+.cacSpCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dongSpCart {
+  display: flex;
+}
+
+.hinhCartThongTinCart {
+  display: flex;
+  flex-basis: 60%;
+}
+.hinhCart {
+  flex-basis: 30%;
+}
+
+.ThongTinCart {
+  padding: 10px;
+}
+.hinhCart img {
+  width: 100px;
+}
+
+.soLuongCartNutXoaCart {
+  display: flex;
+  flex-basis: 30%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.soLuongCart > input {
+  width: 30%;
+  text-align: center;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #1d1b1b;
+  appearance: none;
+  border-radius: 2px;
+}
+
+.thanhToanCartXoaCart {
+  display: flex;
+  margin: 20px;
+
+}
+
+.thanhToanCart,
+.XoaCart {
+  padding: 10px;
+}
+
+.thanhToanCart {
+  border: 1px rgb(123, 132, 141);
+  background-color: rgb(123, 132, 141);
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  color:#fff;
+}
+.thanhToanCart:hover {
+  background-color:rgb(142, 187, 120);
+}
+.XoaCart {
+  background-color: rgb(194, 120, 120);
+  border: 1px rgb(186, 85, 85) solid;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+.XoaCart:hover {
+  background-color:rgb(160, 42, 91);
+}
+.NutXoaCart > button {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+.NutXoaCart > button:hover {
+  background-color:rgb(227, 157, 223);
+  border-radius: 2px;
+  }
+.khuyenMaiCartTongTienCartVATCartTongTTCart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clskhuyenMaiCart {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+  padding-left: 270px;
+}
+
+.clsTongTienCartVATCartTongTTCart {
+  flex-basis: 40%;
+  padding-right: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+.codekhuyenMai {
+  text-transform: capitalize; /* Chuyển thành ký tự hoa   */
+}
+
+.giamGiaCart {
+  display: none;
+}
